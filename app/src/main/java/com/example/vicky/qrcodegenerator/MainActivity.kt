@@ -68,6 +68,9 @@ class MainActivity : AppCompatActivity() {
                     BarcodeFormat.QR_CODE, WIDTH, HEIGHT, null)
         } catch (iae: IllegalArgumentException) {
             return null
+
+
+
         }
         val width = result.width
         val height = result.height
